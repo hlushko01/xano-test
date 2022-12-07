@@ -11,7 +11,7 @@ if (sessionStorage.hasOwnProperty('user')){
     });
 } else {
     alert('You are Log Out');
-    window.location.href = 'file:///Users/dreamstore/Desktop/xano-test/index.html'
+    window.location.href = 'https://hlushko01.github.io/xano-test/'
 }
 
 async function authMe(url = '', data) {

@@ -26,7 +26,7 @@ signForm.addEventListener('submit', function(e){
       } else {
         let authToken = data.authToken;
         sessionStorage.setItem('user', authToken);
-        window.location.href = 'file:///Users/dreamstore/Desktop/xano-test/src/profiles/profile.html'
+        window.location.href = 'https://hlushko01.github.io/xano-test/src/profiles/profile.html'
       }
     });
    //xanoPost(data)
@@ -128,7 +128,7 @@ loginForm.addEventListener('submit', function(e){
       } else {
         let authToken = data.authToken;
         sessionStorage.setItem('user', authToken);
-        window.location.href = 'file:///Users/dreamstore/Desktop/xano-test/src/profiles/profile.html'
+        window.location.href = 'https://hlushko01.github.io/xano-test/src/profiles/profile.html'
       }
     });
    console.log(data);
