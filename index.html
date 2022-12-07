@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <div class="wrapper">
+            <div class="form-wrap">
+                <form class="form form--sign-up" id="sign">
+                    <div class="input-wrap">
+                        <label for="name">Enter your name</label>
+                        <input class="input" type="text" id="name" name="name" required />
+                    </div>
+                    <div class="input-wrap">
+                        <label for="email">Enter your Email</label>
+                        <input class="input" type="email" id="email" name="email" required/>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="password">Enter your Password</label>
+                        <input class="input" type="password" id="password" name="password" required/>
+                    </div>
+                    <input class="button-8" type="submit" value="Sign Up"></input>     
+                </form>
+            </div>
+            <div class="form-wrap">
+                <form class="form form--login" id="log">
+                    <div class="input-wrap">
+                        <label for="email">Enter your Email</label>
+                        <input class="input" type="email" id="email1" name="email" required/>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="password">Enter your Password</label>
+                        <input class="input" type="password" id="password1" name="password" required/>
+                    </div>
+                    <input class="button-8" type="submit" value="Log In"></input>     
+                </form>
+            </div>
+
+        </div>
+    </main>
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@xano/js-sdk@latest/dist/xano.min.js"></script>  
+ <script type="text/javascript" src="src/main.js"></script>
+ <!--<script type="text/javascript" src="src/main-offline.js"></script> -->
+</body>
+</html>
